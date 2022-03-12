@@ -1,0 +1,351 @@
+/* 
+
+
+
+
+normal desktop :992px
+LG Device:992px
+
+
+@media (min-width:992px) and (max-width: 1200px){
+    .container{
+        width:960px;
+    }
+
+}
+
+tablet desktop :768px
+MD Device:768px
+
+@media (min-width:768px )and(max-width:991px){
+  .container{
+        width:720px;
+    }
+
+
+}
+
+
+small mobile :320px
+Extra smail Device
+
+@media (max-width:767px){
+   
+}
+
+large mobile :480px
+@media only screen and(min-width:576px)and (max-width:767px){
+    .container{
+        width:540px;
+    }
+}
+
+ */
+
+
+/* 
+ normal desktop :992px
+ LG Device:992px
+  */
+ 
+ @media (min-width:992px) and (max-width: 1200px){
+     .container{
+         width:960px;
+     }
+     .mine-menu ul li {
+        margin-left: 45px;
+    }
+    .baner .baner-iner h1 {
+        font-size: 62px;
+    }
+    .baner {
+        height: 600px;
+    }
+    .fecher-area {
+        top: -100px;
+    }
+    .them-area {
+        padding: 40px 0;
+    }
+    .sarvic-area .singel-sarvic {
+       padding:20px 10px;
+    }
+    .pricing-area {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .pricing-area .single-pric {
+        margin: 0 10px;
+    }
+    .pricing-area .single-pric a {
+        margin: 20px 0;
+    }
+    .pricing-area .single-pric ul li {
+        padding-top:0px;
+    }
+    .pricing-area .single-pric span {
+        padding-top: 10px;
+        font-size: 30px;
+    }
+    .pricing-area .single-pric span span {
+        top: -10px;
+    }
+
+
+ }
+ 
+ /* tablet desktop :768px
+ MD Device:768px */
+
+ 
+ @media (min-width:768px) and (max-width:991px){
+   .container{
+         width:720px;
+     }
+
+    .baner .baner-iner h1 {
+        font-size: 52px;
+    } 
+      .baner {
+        height: 500px;
+    }
+    .fecher-area {
+        top: -100px;
+    }
+    .fecher-area .single-fecher {
+        padding: 30px 0px;
+    }
+
+    .them-area .them-text h3 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .them-area .them-text a {
+        margin-top: 10px;
+    }
+    .success-area .success-title h3 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .success-area .success-form input {
+        width: 100%;
+        margin-top: 10px;
+  
+    }
+    .singel-sarvic{
+        padding: 20px;
+    }
+    .sarvic-area {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .pricing-area .single-pric {
+        margin: 10px 100px;
+    }
+    .pricing-area .single-pric h4 {
+        padding: 20px 0;
+    }
+    .pricing-area .single-pric a {
+        margin: 20px 0;
+    }
+    .imply-area .single-imply .imply-data h4 {
+        margin-top: 10%;
+       font-size: 18px;
+       line-height: 20px;
+    }
+    .imply-area .single-imply .imply-data p {
+        margin-bottom: 0;
+    }
+    .imply-area .single-imply .imply-data .icon a {
+        font-size: 20px;
+        margin-left: 5px;
+    }
+    .news-area .single-news a {
+        margin-top: 10px;
+    }
+    .fotter-top-area .singel-foter h4 {
+        color: #fff;
+        padding-bottom: 20px;
+        margin-top: 30px;
+    }
+    .copyright-area .copuright-menu ul li {
+        margin-left: 30px;
+    }
+
+
+
+ }
+ 
+/*  
+ small mobile :320px
+ Extra smail Device
+  */
+ @media (max-width:767px){
+
+
+    p {
+        font-size: 13px;
+       margin-bottom: 0rem;
+    }
+    h3 {
+        font-size: 25px;
+    }
+    .baner .baner-iner h1 {
+        font-size: 40px;
+    }
+    .baner {
+        height: 500px;
+    }
+    .baner .baner-iner .icon a {
+        font-size: 18px;
+    }
+    .baner .baner-iner .icon a {
+        margin-left: 5px;
+    }
+    .baner .baner-iner p {
+        font-size: 10px;
+    }
+    .btn {
+        font-family: poppins;
+        font-size: 10px;       
+        padding: 10px 20px;
+
+    }
+    .fecher-area .single-fecher {
+        padding: 25px 10px;
+        border-bottom: 3px solid;
+    }
+    .them-area .them-text h3 {
+        font-size: 25px;
+        padding-bottom: 10px;
+        line-height: 30px;
+    }
+    .them-area .them-text a {
+        margin-top: 0px;
+    }
+    .them-img img {
+        margin-top: 20px;
+    }
+    .success-area .success-title h3 {
+        font-size: 25px;
+        margin-bottom: 10px;
+        line-height: 30px;
+    }
+    .success-area .success-title p {
+        font-size: 12px;
+        margin-bottom: 0;
+    }
+    .success-area .success-form input {
+        width: 100%;
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+    .sarvic-area {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .sarvic-area .singel-sarvic {
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+    .sarvic-area .singel-sarvic h4 {
+        padding-top: 20px;
+        font-size: 20px;
+    }
+
+    .sarvic-area .singel-sarvic p {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .pricing-area {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+
+    .pricing-area .pric-title {
+        padding-bottom: 10px;
+    }
+    .pricing-area .single-pric h4 {
+        padding: 10px 0;
+    }
+    .pricing-area .single-pric span {
+        padding-top: 10px;
+        font-size: 30px;
+    }
+    .pricing-area .single-pric ul li {
+        padding-top: 5px;
+    }
+    .pricing-area .single-pric a {
+        margin: 15px 0;
+    }
+    .pricing-area .single-pric {
+        margin-bottom: 10px;
+    }
+    .news-area .single-news a {
+        margin: 15px 0;
+    }
+    .singel-foter {
+        margin-top: 40px;
+    }
+    .copyright-area .copuright-menu ul li {
+        margin-left: 20px;
+    }
+    .copyright-area .copyright-text p {
+        line-height: 40px;
+        text-align: center;
+    }
+    .copyright-area .copuright-menu {
+        margin-top: 10px;
+    }
+ 
+   .fotter-top-area .singel-foter .blog-text {
+        margin-top: 40px;
+    }
+    .copyright-area .copuright-menu{
+      float: none;
+    }
+    .copyright-area .copuright-menu ul {
+        text-align: center;
+    }
+
+    a#scrollUp {
+        height: 30px;
+        width: 30px;
+        line-height: 30px;
+        font-size: 20px;
+    }
+
+    .copyright-area .copuright-menu ul li {
+        margin-left: 15px;
+    }
+    .mean-container .mean-nav ul li a {
+        text-align: center;
+        font-size: 12px;
+    }
+    .mean-container .mean-nav ul li a.mean-expand {
+        width: 20px;
+        height: 20px;
+        padding: 10px !important;
+    }
+
+
+
+ }
+ 
+ /* large mobile :480px */
+
+
+ @media only screen and(min-width:576px)and (max-width:767px){
+     .container{
+         width:540px;
+     }
+
+
+
+ }
